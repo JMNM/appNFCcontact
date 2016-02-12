@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">appNFCcontact</string>
+    <string name="nfccontac">NFC Contact</string>
+    <string name="guardar">Guardar Número a Enviar</string>
+    <string name="enviar">Enviar</string>
+    <string name="mensage">Mensaje enviado</string>
+    <string name="numero">Número a Enviar:</string>
+    <string name="numero_rec">Número Recibido:</string>
+    <string name="aniadir_contact">Añadir Número a Contactos</string>
 </resources>
