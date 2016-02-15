@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity implements CreateNdefMessage
     }
 
     /**
-     * En este método, si se ejecuta después de un intent con una etiqueta de NDEF útil se obtendra el número de ella.
+     * En este método, si se ejecuta después de un intent con una etiqueta de NDEF útil, se obtendra el número de ella.
      */
     @Override
     protected void onResume() {
@@ -232,7 +232,7 @@ public class MainActivity extends AppCompatActivity implements CreateNdefMessage
         String action = intent.getAction();
         if(action.equals(NfcAdapter.ACTION_NDEF_DISCOVERED)){
             //Obtenemos el array de mensajes que pueda contener la etiqeuta NFC
-            //en un objeto array de tipo Parcelable que nos permitara obtener el mensajes en NdefMessage
+            //en un objeto array de tipo Parcelable que nos permitira obtener el mensajes en NdefMessage
             Parcelable[] parcelables =
                     intent.getParcelableArrayExtra(
                             NfcAdapter.EXTRA_NDEF_MESSAGES);
